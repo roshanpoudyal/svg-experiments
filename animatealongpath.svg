@@ -30,11 +30,11 @@
 		<path id="electronpath" fill="none" stroke="#0095DA" stroke-width="3" stroke-miterlimit="10" d="M703.084,292.412
 			c0,128.49-104.161,232.651-232.651,232.651S237.782,420.902,237.782,292.412S341.944,59.76,470.434,59.76
 			S703.084,163.921,703.084,292.412z"/>
-		<circle id="electronwithoutlabel" fill="#F8878B" stroke="#AF2E38" stroke-miterlimit="10" cx="239.985" cy="294.077" r="14.219">
-			<set xlink:href="#electronwithoutlabel" 
+		<circle id="electronwithoutlabel" fill="#F8878B" stroke="#AF2E38" stroke-miterlimit="10" cx="0" cy="294.077" r="0">
+			<!--<set xlink:href="#electronwithoutlabel" 
             attributeName="cx" to ="0" begin="-3s" dur="indefinite" />
 			<set xlink:href="#electronwithoutlabel" 
-            attributeName="cy" to ="0" begin="-3s" dur="indefinite" />
+            attributeName="cy" to ="0" begin="-3s" dur="indefinite" />-->
 			<animateMotion dur="6s"  begin="-3s" repeatCount="indefinite">
 		           <mpath xlink:href="#electronpath"/>
 		    </animateMotion>
