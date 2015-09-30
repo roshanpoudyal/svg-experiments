@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 width="100%" height="100%" viewBox="0 0 960 580" xml:space="preserve">
+		<g class="nucleus">
+			<circle fill="none" stroke="#7DB5C9" stroke-width="3.15" stroke-miterlimit="10" cx="470.433" cy="292.412" r="76.458"/>
+			<g>
+				<circle fill="#ABD14A" stroke="#7E990D" stroke-width="1.862" stroke-miterlimit="10" cx="447.236" cy="272.369" r="31.041"/>
+				<circle fill="#74CFD2" stroke="#2D9696" stroke-width="1.862" stroke-miterlimit="10" cx="490.479" cy="274.621" r="31.041"/>
+				<circle fill="#74CFD2" stroke="#2D9696" stroke-width="1.862" stroke-miterlimit="10" cx="445.885" cy="309.753" r="31.041"/>
+				<circle fill="#ABD14A" stroke="#7E990D" stroke-width="1.862" stroke-miterlimit="10" cx="494.983" cy="312.458" r="31.041"/>
+			</g>
+			<polyline fill="none" stroke="#000000" stroke-width="1.25" stroke-miterlimit="10" points="818.754,123.979 749.333,123.979 
+				543.36,257.055 	"/>
+			<g>
+				<polyline fill="none" stroke="#000000" stroke-width="1.25" stroke-miterlimit="10" points="121.881,123.979 191.302,123.979 
+					418.49,255.763 		"/>
+				<circle cx="416.134" cy="254.527" r="4.181"/>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#000000" stroke-width="1.25" stroke-miterlimit="10" points="121.881,460.357 191.302,460.357 
+					418.49,328.573 		"/>
+				<circle cx="416.134" cy="329.809" r="4.181"/>
+			</g>
+			<circle cx="544.508" cy="256.134" r="4.181"/>
+			<text transform="matrix(1 0 0 1 37.3257 130.1782)" font-family="'MyriadPro-Semibold'" font-size="26">proton</text>
+			<text transform="matrix(1 0 0 1 24.1182 467.1001)" font-family="'MyriadPro-Semibold'" font-size="26">neutron</text>
+			<text transform="matrix(1 0 0 1 822.8911 130.1782)" font-family="'MyriadPro-Semibold'" font-size="26">nucleus</text>
+		</g>
+		<path id="electronpath" fill="none" stroke="#0095DA" stroke-width="3" stroke-miterlimit="10" d="M703.084,292.412
+			c0,128.49-104.161,232.651-232.651,232.651S237.782,420.902,237.782,292.412S341.944,59.76,470.434,59.76
+			S703.084,163.921,703.084,292.412z"/>
+		<circle id="electronwithoutlabel" fill="#F8878B" stroke="#AF2E38" stroke-miterlimit="10" cx="239.985" cy="294.077" r="14.219">
+			<set xlink:href="#electronwithoutlabel" 
+            attributeName="cx" to ="0" begin="-3s" dur="indefinite" />
+			<set xlink:href="#electronwithoutlabel" 
+            attributeName="cy" to ="0" begin="-3s" dur="indefinite" />
+			<animateMotion dur="6s"  begin="-3s" repeatCount="indefinite">
+		           <mpath xlink:href="#electronpath"/>
+		    </animateMotion>
+		</circle>
+		<g id="electronwithlabel" transform="translate(-703.651 -294.077)">
+			<circle fill="#F8878B" stroke="#AF2E38" stroke-miterlimit="10" cx="703.651" cy="294.077" r="14.219"/>
+			<circle cx="719.636" cy="283.73" r="4.181"/>
+			<polyline fill="none" stroke="#000000" stroke-width="1.25" stroke-miterlimit="10" points="818.754,253.979 749.333,253.979 
+				720.317,283.815 	"/>
+			<text transform="matrix(1 0 0 1 822.8911 259.3735)" font-family="'MyriadPro-Semibold'" font-size="26">electron</text>
+		</g>
+
+		<animateMotion xlink:href="#electronwithlabel" dur="6s" repeatCount="indefinite">
+		    <mpath xlink:href="#electronpath"/>
+		</animateMotion>
+</svg>
