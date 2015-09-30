@@ -47,7 +47,7 @@
 			<text transform="matrix(1 0 0 1 822.8911 259.3735)" font-family="'MyriadPro-Semibold'" font-size="26">electron</text>
 		</g>
 
-		<animateMotion xlink:href="#electronwithlabel" dur="6s" repeatCount="indefinite">
+		<animateMotion xlink:href="#electronwithlabel" dur="6s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear">
 		    <mpath xlink:href="#electronpath"/>
 		</animateMotion>
 </svg>
