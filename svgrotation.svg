@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100%" height="100%" viewBox="0 0 289.25 295.5" enable-background="new 0 0 289.25 295.5" xml:space="preserve">
+<g id="firstorbital" >
+	<circle fill="none" stroke="#0095DA" stroke-width="3" stroke-miterlimit="10" cx="144.797" cy="146.779" r="126.976"/>
+	<g>
+		<circle fill="#F8878B" stroke="#AF2E38" stroke-width="0.96" stroke-miterlimit="10" cx="252.37" cy="79.275" r="13.65"/>
+		
+			<rect x="244.274" y="76.868" transform="matrix(-0.5807 -0.8141 0.8141 -0.5807 334.3977 330.7652)" fill="#231F20" width="16.209" height="4.8"/>
+	</g>
+	<g>
+		<circle fill="#F8878B" stroke="#AF2E38" stroke-width="0.96" stroke-miterlimit="10" cx="39.058" cy="217.043" r="13.65"/>
+		
+			<rect x="30.958" y="214.644" transform="matrix(-0.5807 -0.8141 0.8141 -0.5807 -114.9502 374.8876)" fill="#231F20" width="16.21" height="4.801"/>
+	</g>
+
+	<!-- added animate transform --> 
+	<!-- Look at the value for value attribute the 144.625 and 147.75 are center of the viewbox that is center of rotation is given the center of viewbox i.e the center of the big circle -->
+	<animateTransform  xlink:href="#firstorbital" attributeType="xml" attributeName="transform" type="rotate" values="0 144.625 147.75; 360 144.625 147.75" dur="10s" repeatCount="indefinite" />
+</g>
+</svg>
