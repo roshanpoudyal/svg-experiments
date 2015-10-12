@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="260px" viewBox="0 0 500 260" enable-background="new 0 0 500 260" xml:space="preserve">
+<path fill="#C98763" stroke="#000000" stroke-width="1.3909" stroke-miterlimit="10" d="M220.059,32.083
+	c0,0,0.781-9.28,4.739-19.698c1.837-4.824,2.281,10.966,2.281,10.966s9.419-14.785,19.789-13.137
+	c1.697,0.268-13.559,11.481-13.559,11.481s22.696-16.893,45.08-6.547c1.873,0.866-13.215,12.142-13.215,12.142L220.059,32.083z"/>
+<g id="leftear">
+	<path fill="#C98763" stroke="#000000" stroke-width="1.5506" stroke-miterlimit="10" d="M187.343,59.43
+			c0,0-22.397-30.66-1.144-56.497c3.623-4.399,29.965,1.204,31.713,35.162C218.425,48.099,187.343,59.43,187.343,59.43z"/>	
+	<path fill="#FFE6C7" stroke="#000000" stroke-width="1.1456" stroke-miterlimit="10" d="M192.273,54.79
+			c0,0-16.545-22.652-0.839-41.741c2.674-3.252,22.135,0.888,23.426,25.978C215.24,46.414,192.273,54.79,192.273,54.79z"/>
+	<animateTransform id="lefteardur" xlink:href="#leftear" attributeType="xml" attributeName="transform" type="rotate" values="-10 204 44;0 204 44;-10 204 44" dur="0.2s" begin="0s;lefteardur.end+2s"/>
+</g>
+<g id="rightear">
+	<g>
+		<path fill="#C98763" stroke="#000000" stroke-width="1.5506" stroke-miterlimit="10" d="M311.133,59.43
+			c0,0,22.394-30.66,1.142-56.497c-3.621-4.399-29.965,1.204-31.707,35.162C280.047,48.099,311.133,59.43,311.133,59.43z"/>
+	</g>
+	<g>
+		<path fill="#FFE6C7" stroke="#000000" stroke-width="1.1456" stroke-miterlimit="10" d="M306.2,54.79
+			c0,0,16.545-22.652,0.845-41.741c-2.68-3.252-22.139,0.888-23.432,25.978C283.235,46.414,306.2,54.79,306.2,54.79z"/>
+	</g>
+	<animateTransform  id="righteardur" xlink:href="#rightear" attributeType="xml" attributeName="transform" type="rotate" values="10 295 44; 0 295 44; 10 295 44" dur="0.2s" begin="0s;righteardur.end+2s" />
+</g>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="249.3638" y1="260.6982" x2="249.3638" y2="-156.9019">
+		<stop  offset="0" style="stop-color:#F6F6F6;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_1_)" points="465.546,261.635 499.363,171.34 -0.637,171.34 33.182,261.635 	"/>
+	<path fill="#C98763" stroke="#000000" stroke-width="1.5506" stroke-miterlimit="10" d="M207.414,160.234
+		c6.121,4.242,11.538,6.655,16.406,10.729h50.835c4.869-4.074,10.287-6.487,16.406-10.729
+		c51.421-35.678,27.973-92.271,17.924-107.27c-8.404-12.556-27.199-29.575-59.748-28.216c-32.547-1.359-51.339,15.66-59.749,28.216
+		C179.444,67.964,155.993,124.557,207.414,160.234z"/>
+	<path fill="#FFE6C7" stroke="#000000" stroke-width="1.5506" stroke-miterlimit="10" d="M288.916,172.521
+		c11.763-12.772,17.753-26.987,17.753-26.987s12.894-70.816-15.05-85.738c-32.913-17.582-37.486,39.679-37.888,48.302
+		c-0.121,2.645-1.982,3.654-4.494,3.805c-2.504-0.15-4.371-1.16-4.495-3.805c-0.397-8.623-4.975-65.884-37.888-48.302
+		c-27.943,14.922-15.046,85.738-15.046,85.738s5.989,14.215,17.753,26.987"/>
+	<path stroke="#000000" stroke-width="0.6993" stroke-miterlimit="10" d="M252.524,125.369c0,0,5.148,6.268,4.779,12.947
+		c-0.273,4.996-5.734,10.48-8.072,10.76c-3.567,0.437-9.626-7.124-8.251-12.649C242.354,130.904,247.098,123.005,252.524,125.369z"
+		/>
+	<path fill="none" stroke="#000000" stroke-width="2.4249" stroke-miterlimit="10" d="M229.152,165.848
+		c4.07,2.072,9.103,3.563,15.198,3.654c13.775,0.199,21.871-3.354,26.628-7.468"/>
+	<g>
+		
+			<ellipse fill="#FFFFFF" stroke="#231F20" stroke-width="2.1489" stroke-miterlimit="10" cx="284.483" cy="119.306" rx="13.541" ry="21.828"/>
+		<path fill="none" stroke="#231F20" stroke-width="2.1489" stroke-miterlimit="10" d="M278.265,91.512c0,0,1.189-5.701,7.993-5.701
+			c0,0,4.013-0.881,8.459,4.859"/>
+		<g>
+			<path fill="#231F20" d="M292.229,131.984c0,4.982-3.27,9.02-7.31,9.02c-4.031,0-7.305-4.037-7.305-9.02
+				c0-4.979,3.273-9.019,7.305-9.019C288.959,122.966,292.229,127.005,292.229,131.984z"/>
+			<ellipse fill="#FFFFFF" cx="284.205" cy="125.861" rx="1.548" ry="1.909"/>
+		</g>
+	</g>
+	<g>
+		
+			<ellipse fill="#FFFFFF" stroke="#231F20" stroke-width="2.1489" stroke-miterlimit="10" cx="215.058" cy="119.306" rx="13.541" ry="21.828"/>
+		<path fill="none" stroke="#231F20" stroke-width="2.1489" stroke-miterlimit="10" d="M221.278,91.512c0,0-1.192-5.701-7.994-5.701
+			c0,0-4.012-0.881-8.459,4.859"/>
+		<g>
+			<ellipse fill="#231F20" cx="214.619" cy="131.984" rx="7.308" ry="9.02"/>
+			<ellipse fill="#FFFFFF" cx="215.338" cy="125.861" rx="1.548" ry="1.909"/>
+		</g>
+	</g>
+	<path fill="#C98763" stroke="#000000" stroke-width="1.0832" stroke-miterlimit="10" d="M186.272,158.869
+		c-2.285,1.619-7.567,4.18-9.585,14.013c-1.242,6.054,3.032,9.735,4.409,9.544c3.441-0.477,4.717-6.964,5.459-9.825
+		c1.102-4.27-1.306,11.389,4.729,12.052c2.89,0.318,3.854-5.407,4.398-9.566c0.993-7.578,1.937,8.772,6.755,8.772
+		c4.415,0,3.993-11.612,3.993-11.612s1.632,9.263,7.02,7.951c2.619-0.636,8.764-6.933-1.113-17.645
+		C202.461,151.838,188.806,157.08,186.272,158.869z"/>
+	<path fill="#C98763" stroke="#000000" stroke-width="1.0832" stroke-miterlimit="10" d="M313.621,158.869
+		c2.286,1.619,7.567,4.18,9.585,14.013c1.242,6.054-3.032,9.735-4.41,9.544c-3.441-0.477-4.716-6.964-5.459-9.825
+		c-1.102-4.27,1.307,11.389-4.728,12.052c-2.89,0.318-3.854-5.407-4.398-9.566c-0.993-7.578-1.937,8.772-6.755,8.772
+		c-4.416,0-3.993-11.612-3.993-11.612s-1.632,9.263-7.02,7.951c-2.62-0.636-8.764-6.933,1.113-17.645
+		C297.433,151.838,311.088,157.08,313.621,158.869z"/>
+</g>
+<!-- this circle is to find the centre of rotation for left ear,
+the cx and cy attribute of the first circle is used to set the centre 
+of rotation for #leftear -->
+<circle cx="204" cy="44" r="4" fill="red" />
+
+<!-- this circle is to find the centre of rotation for right ear,
+the cx and cy attribute of the second circle is used to set the centre 
+of rotation for #rightear -->
+<circle cx="295" cy="44" r="4" fill="lime" />
+
+<text transform="matrix(1 0 0 1 350 240)" font-family="'sans-serif'" font-size="10">Courtesy : Narendra Dai</text>
+</svg>
