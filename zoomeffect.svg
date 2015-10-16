@@ -1,0 +1,86 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414.88px"
+height="268.316px" viewBox="0 0 300 300" onload="startup(evt)" onmousemove="mouseMove(evt)" onmouseup="mouseUp(evt)" xml:space="preserve" >
+<script>
+
+<![CDATA[
+
+//Cache Vairables
+var clippedImage;
+var cp;
+var mycircle;
+var greencircle;
+var gMouseDown = 0;
+var scaleFactor = 2.5;
+
+//Start Up Event and get Ids
+function startup(evt)
+{
+ clippedImage = document.getElementById("clippedI");
+ cp = document.getElementById("clipgroup");
+ mycircle = document.getElementById("clipcircle");
+ greencircle = document.getElementById("greencircle");
+}
+
+//Set the eveent when the mouse moves over the element
+// Detect whether the mouse is down or not
+// Get the attributes of the clip circle and the green circle and change them.
+// Call an resize function
+function mouseMove(evt)
+{
+  if(!gMouseDown) return;
+ 
+  var x = evt.clientX;
+  var y = evt.clientY;
+  
+  mycircle.setAttributeNS(null,"cx", x);
+  mycircle.setAttributeNS(null,"cy", y);
+  
+  greencircle.setAttributeNS(null,"cx", x);
+  greencircle.setAttributeNS(null,"cy", y);
+  
+  resizeImage(x,y);
+}
+
+// Mouse is down
+function mouseDown(evt)
+{
+  gMouseDown = 1;
+}
+
+// Mouse is not down
+function mouseUp(evt)
+{
+  gMouseDown = 0;
+}
+
+// Resize and transform the content 
+function resizeImage(x,y)
+{   
+  var newx = x - scaleFactor*x;
+  var newy = y - scaleFactor*y;
+
+  var tx = "translate(" + newx + "," + newy 
+             + "),scale(" + scaleFactor + "," + scaleFactor +")";
+  clippedImage.setAttribute("transform", tx);
+}
+
+//]]>
+</script>
+
+
+<g id="pinksqaure" onmousedown="mouseDown(evt)" onmousemove="mouseMove(evt)" onmouseup="mouseUp(evt)">
+<rect x="126.225" y="57.365" fill="#EC008C" width="139.056" height="139.055"/>
+  <text transform="matrix(1.0003 0 0 1 100 100)" fill="#000000" font-family="'Calibri-Bold'" font-size="10">Lu</text>
+</g>
+
+<clipPath id="clipgroup">
+    <circle id="clipcircle" cx="156.875" cy="135.95" r="27.095" />
+</clipPath>
+
+<g xmlns="http://www.w3.org/2000/svg" id="clippedI" onmouseup="mouseUp(evt)" onmousedown="mouseDown(evt)" transform="translate(-246,-249),scale(2.5,2.5)">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinksqaure" clip-path="url(#clipgroup)" />
+<circle id="greencircle" style="fill:none;stroke:#39B54A;stroke-width:3;stroke-miterlimit:10;" cx="156.875" cy="135.95" r="27.095"/>
+</g>
+
+</svg>
+
