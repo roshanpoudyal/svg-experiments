@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="960px" height="580px" viewBox="0 0 960 580" enable-background="new 0 0 960 580" xml:space="preserve">
+
+<!-- mind the transform attribute in rect -->
+<rect x="0" y="0" width="200" height="10" transform="translate(-100, -5)">
+    <!-- mind the keypoints and keytimes in animatemotion and also the rotate auto-->
+    <animateMotion id="forward" dur="5s" begin="0s;backward.end" rotate="auto" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+        <mpath xlink:href="#motionPath" />
+    </animateMotion>
+    <animateMotion id="backward" dur="5s" begin="forward.end" rotate="auto" keyPoints="1;0"
+    keyTimes="0;1" calcMode="linear">
+        <mpath xlink:href="#motionPath" />
+    </animateMotion>
+</rect>
+    
+<path id="motionPath" fill="none" stroke="#000000" stroke-miterlimit="10" d="M960.669,423.552c-119.623,0-239.882,2.926-359.313-2.411
+	c-59.998-2.682-124.887-0.129-180.017-26.314c-46.571-22.121-97.095-71.062-55.195-120c7.82-9.134,17.027-13.126,28.416-18.134
+	c20.78-9.138,56.98-31.939,78.565-27.303c17.188,3.691,40.548,33.202,49.144,47.251c9.72,15.886,3.011,41.014-0.311,58.341
+	c-7.014,36.585-14.5,59.505-47.259,82.562c-64.163,45.16-162.504,38.574-236.723,38.574c-40.841,0-81.744,0.874-122.494-1.376
+	c-26.892-1.484-52.394-5.179-78.643-11.236c-12.281-2.834-24.469-7.968-37.294-7.74"/>
+</svg>
