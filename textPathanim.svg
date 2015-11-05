@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="960px" height="580px" viewBox="0 0 960 580" enable-background="new 0 0 960 580" xml:space="preserve">
+     width="960px" height="580px" viewBox="0 0 960 580" enable-background="new 0 0 960 580" xml:space="preserve">
 <path id="textpath" fill="none" stroke="#231F20" stroke-width="0.5" stroke-miterlimit="10" d="M217.944,56.228h592.713
-	c0,0,72.564-7.168,68.755,117.817c-3.423,10.299-690.200,-201.065-690.469,67.065s-64.276,1.71-56.19,90.629
-	c5.581,61.375,34.136,54.376,336.836,47.126c212.638-5.093,197.884-12.367,404.012,15.116c0,0,65.749,46.513,22.247,113.578
-	s-766.721,87.005-815.661-10.875S90.6,115.796,95.305,82.861s122.951-26.446,122.951-26.446"/>
+    c0,0,72.564-7.168,68.755,117.817c-3.423,10.299-690.200,-201.065-690.469,67.065s-64.276,1.71-56.19,90.629
+    c5.581,61.375,34.136,54.376,336.836,47.126c212.638-5.093,197.884-12.367,404.012,15.116c0,0,65.749,46.513,22.247,113.578
+    s-766.721,87.005-815.661-10.875S90.6,115.796,95.305,82.861s122.951-26.446,122.951-26.446"/>
 <text transform="matrix(1 0 0 1 0 0)" font-family="'MyriadPro-Regular'" font-size="38">
     <textPath xlink:href="#textpath">This is e-paath sample
-         <animate attributeName="startOffset" values="0;4000;1" dur="10s" repeatCount="indefinite" keyTimes="0;1;1" />
+        <animate id="forwards" attributeName="startOffset" from="0" to ="3700" begin="0s;backwards.end" dur="5s" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.5 .22 1"/>
+        <animate id="backwards" attributeName="startOffset" from="3700" to ="0" begin="forwards.end" dur="5s" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.5 .22 1"/>
     </textPath>
 </text>
 </svg>
