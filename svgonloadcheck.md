@@ -1,19 +1,19 @@
 <h3>Check if SVG document is loaded, when embedded in html inside object tag</h3><br>
 <b><mark>HTML:</mark></b>
-<code>
+<pre>
 <object id="svgholder" data="some.svg" type="image/svg+xml" width="100%" height="100%"></object>
-</code>
+</pre>
 
 <b><mark>JS/Jquery</mark></b>
-<code>
+<pre>
 var $svgholder =  body.find('object#svgholder'); /*some selector jquery*/
 $svgholder[0].onload = function(){
 				alert();
 			}
-</code>
+</pre>
 <i>OR</i>
-<code>
+<pre>
 $svgholder.load("image/svg+xml", function() {
 				alert();
 			});
-</code>
+</pre>
