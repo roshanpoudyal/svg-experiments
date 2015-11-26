@@ -4,14 +4,14 @@
 <object id="svgholder" data="some.svg" type="image/svg+xml" width="100%" height="100%"></object>
 ```
 <b><mark>JS/Jquery</mark></b>
-```jquery
+```javascript
 var $svgholder =  body.find('object#svgholder'); /*some selector jquery*/
 $svgholder[0].onload = function(){
 				alert();
 }
 ```
 <i>OR</i>
-```jquery
+```javascript
 $svgholder.load("image/svg+xml", function() {
 				alert();
 });
