@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="480px" height="725px" viewBox="0 0 480 725" enable-background="new 0 0 480 725" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#ED1C24" stroke-width="12" stroke-linejoin="round" stroke-dasharray="360" stroke-dashoffset="-360" d="M318.171,95.937 c0,0,10,0,24,0c45.571,0,18.238,77,18.238,77c-23.29,67-68,98-68,98s-92.767,54.285-72.825,79.842l4.404,4.052">
+		<animate id="" attributeName="stroke-dashoffset" values="-360;0" begin="0s" dur="3s" fill="freeze" />
+	</path>
+</g>
+
+<g transform="translate(-100,0)">
+	<path fill="none" stroke="#ED1C24" stroke-width="12" stroke-linejoin="round" stroke-dasharray="360" stroke-dashoffset="360" d="M318.171,95.937 c0,0,10,0,24,0c45.571,0,18.238,77,18.238,77c-23.29,67-68,98-68,98s-92.767,54.285-72.825,79.842l4.404,4.052">
+		<animate id="" attributeName="stroke-dashoffset" values="360;0" begin="0s" dur="3s" fill="freeze" />
+	</path>
+</g>
+
+</svg>
