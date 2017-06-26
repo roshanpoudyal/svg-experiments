@@ -1,2 +1,3 @@
 # svg-experiments
-All svg experiments and demo
+* svg experiments and demo 
+* svg demo and resources
